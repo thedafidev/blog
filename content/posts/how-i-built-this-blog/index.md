@@ -12,7 +12,7 @@ cover: "cover.png"
 This post documents the steps you can follow to build a similar blog as fast as possible and serve it locally. It focuses on getting started only.
 
 Not covered:
-- Deployment
+- Deployment (Cloudflare Pages example explained in [this post]({{< relref "posts/deploy-on-cloudflare-pages" >}}))
 - Analytics
 
 ## Prerequisites
@@ -143,13 +143,13 @@ git branch -M main
 git push -u origin main
 ```
 
-## Next steps and resources
+## Next steps
 
 - Configure `config.yaml`/`config.toml` to match your site settings
 - Explore the theme's `exampleSite` for various examples
-- Deploy: Cloudflare Pages for example
+- Deploy: Cloudflare Pages deployment is covered [here]({{< relref "posts/deploy-on-cloudflare-pages" >}})
 
-### Resources
+## Resources
 
 - [Hugo documentation](https://gohugo.io/documentation/)
 - [Hugo Narrow documentation](https://hugo-narrow-docs.vercel.app/)
