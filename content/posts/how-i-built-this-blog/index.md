@@ -1,6 +1,5 @@
 ---
-date: '2026-01-24T23:48:27+01:00'
-draft: true
+date: '2026-01-24T16:48:27+01:00'
 title: "How I built this blog"
 description: "A concise, practical guide to creating and serving a Hugo blog locally."
 tags: ["hugo", "hosting", "git"]
