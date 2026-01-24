@@ -1,0 +1,14 @@
+/* Improve visibility of links inside post article content only */
+/* Targets the article element used on single post pages (class includes `prose`) */
+.prose a,
+article.prose a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 150ms ease, opacity 150ms ease;
+}
+
+.prose a:hover,
+article.prose a:hover {
+  opacity: 0.9;
+}

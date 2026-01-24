@@ -1,0 +1,16 @@
+main:
+  - name: nav.posts
+    pageRef: /posts
+    weight: 20
+    params:
+      icon: posts
+  - name: nav.categories
+    pageRef: /categories
+    weight: 30
+    params:
+      icon: categories
+  - name: nav.tags
+    pageRef: /tags
+    weight: 40
+    params:
+      icon: tags

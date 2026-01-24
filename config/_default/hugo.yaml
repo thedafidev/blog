@@ -1,0 +1,67 @@
+baseURL: https://dafidev.com/
+languageCode: en-US
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+title: Dafi Dev's blog
+theme: "hugo-narrow"
+
+hasCJKLanguage: true
+enableEmoji: true
+
+permalinks:
+  posts: /posts/:slug/
+  projects: /projects/:slug/
+  pages: /:slug/
+
+pagination:
+  pagerSize: 6
+  path: "page"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      extras:
+        delete:
+          enable: true
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: false
+        superscript:
+          enable: false
+      strikethrough: false
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    lineNumbersInTable: false
+    noClasses: false
+    style: github
+    tabWidth: 2
+
+outputs:
+  home: ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+outputFormats:
+  WebAppManifest:
+    mediaType: "application/manifest+json"
+    baseName: "site"
+    isPlainText: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.146.0
