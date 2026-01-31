@@ -277,6 +277,7 @@ This feature relies on Cloudflare Access, restricting access to preview deployme
 ## Next steps
 
 - Add analytics to get insights on the performance of your website
+- Customize your `_headers` file to include security-related headers (CORS, CSP...)
 
 ## Resources
 
