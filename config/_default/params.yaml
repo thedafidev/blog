@@ -79,12 +79,12 @@ comments:
 
 # Analytics
 analytics:
-  enabled: false
+  enabled: true
   umami:
-    enabled: false
-    id: "your-umami-website-id"
-    src: "https://umami.com/myscript.js"
-    domains: "example.domain.com"
+    enabled: true
+    id: "62bfbaee-5081-4f60-af57-44800f775f2d"
+    src: "https://data.dafidev.com/data.js"
+    domains: "www.dafidev.com"
 
 # KaTeX
 katex:
